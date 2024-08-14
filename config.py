@@ -23,23 +23,23 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ!!")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7209923723:AAHqGIkfUKuSEUWSHGd52HWU_kOXy6zwV6M") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "24262361"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "6dc187358c7edf4c2040cf3fd6c1a834")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002171725822"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "-1001981603944")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7092346282"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://lavda:lassan@cluster0.9uhmlry.mongodb.net/")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Bapusarkarbjppvt:HU8jDvgoGuUJv6yI@cluster0.khf1x.mongodb.net/")
 #your database name
-DB_NAME = os.environ.get("DB_NAME", "Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "Filesbybaousj")
 
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
@@ -52,7 +52,7 @@ TIME = int(os.environ.get("TIME", "60"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1001868871195'))
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002017483928'))
 
 #Shortner (token system) 
 """
