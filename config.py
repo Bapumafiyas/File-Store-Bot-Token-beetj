@@ -46,7 +46,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "cosmic_freak")
+OWNER_TAG = os.environ.get("OWNER_TAG", "JBL_TOXIC")
 #Time in seconds for message delete
 TIME = int(os.environ.get("TIME", "60"))
 
@@ -64,16 +64,16 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "api.shareus.io")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "shortyfi.link")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "6ea45e31941204014975566c1a788f0492935434")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "86400")) # Add time in seconds
 #Tutorial video for the user of your shortner on how to download.
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/c/2091520425/43")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
